@@ -1,1 +1,8 @@
-function breakOut (array, changeValue, stopValue)
+function breakOut (array, changeValue, stopValue) {
+  for (var i = 0; i < array.length; i++) {
+    if (array[i] === stopValue) {
+      break
+    }
+    const array[i] = changeValue
+  }
+}
