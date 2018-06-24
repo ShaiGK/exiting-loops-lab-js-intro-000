@@ -3,6 +3,6 @@ function breakOut (array, changeValue, stopValue) {
     if (array[i] === stopValue) {
       break
     }
-    const array[i] = changeValue
+    array[i] = changeValue
   }
 }
